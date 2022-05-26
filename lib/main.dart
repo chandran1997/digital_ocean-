@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'auth/auth1/cloud_security.dart';
 import 'auth/auth1/database.dart';
 import 'auth/auth1/droplet.dart';
 import 'auth/auth1/spaces.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SpacesPage(),
+      home: const CloudSecurityPage(),
     );
   }
 }
